@@ -1,8 +1,8 @@
 # ORLINA CLOSET
 
 ORLINA CLOSET is a simple fashion and clothing brand based on Facebook Marketplace.
-<div class="qr-section">
-    <img src="orlin_logo.jpg" alt="logo">
+<div align="left">
+    <img src="orlin_logo.jpg" width="250" alt="ORLINA CLOSET Logo">
 </div>
 <br>
 
@@ -47,7 +47,9 @@ Scan the QR code to open the landing page.
 ```text
 project/
 │
-├── index.html
-├── style.css
-├── logo.png
-└── README.md
+├── index.html          # Main landing page
+├── style.css           # Website styling
+├── QR.py               # Python script to generate QR code
+├── logo.png            # ORLINA CLOSET logo
+├── qr.png              # Generated QR code image
+└── README.md           # Project documentation
